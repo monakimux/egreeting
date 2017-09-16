@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "halloween", "halloween\halloween.csproj", "{C71AF0BA-9DD8-4A5A-8B50-4A03C35B1138}"
 EndProject
 Global
@@ -13,5 +14,11 @@ Global
 		{C71AF0BA-9DD8-4A5A-8B50-4A03C35B1138}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C71AF0BA-9DD8-4A5A-8B50-4A03C35B1138}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C71AF0BA-9DD8-4A5A-8B50-4A03C35B1138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6909C18-A083-4D34-9532-AA09A2C3B444}
 	EndGlobalSection
 EndGlobal
