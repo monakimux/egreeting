@@ -3,20 +3,27 @@
 <div class="row">
 		<!--Card-->
 <div class="col-xs-12 col-md-6">
-<iframe src="https://giphy.com/embed/J9AK8B4xz1TYk" width="480" height="384" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/i-hate-everyone-J9AK8B4xz1TYk">via GIPHY</a></p>
+			<img class="img-responsive center-block" src="https://media.giphy.com/media/J9AK8B4xz1TYk/giphy.gif" alt="hateeveryone"></img
+			<p><a href="https://giphy.com/gifs/i-hate-everyone-J9AK8B4xz1TYk">via GIPHY</a></p>
 		</div>
 		<!--Form-->
 		<div class="col-xs-12 col-md-6">
 			<form action="/" method="post">
         <div id="send" class="container-fluid bg-grey">
                     <div class="row">
+						<label for="from-name">Your name:</label>
 						<input class="form-control" id="from-name" style="text-transform: capitalize" name="from-name" placeholder=" From Me" type="text" maxlength="70" required><br/>
-                            <input class="form-control" id="from-email" name="email" placeholder=" me@me.com" type="from-email" required><br/>
-                            <input class="form-control" id="to-name" style="text-transform: capitalize" name="to-name" placeholder=" To You" type="text" maxlength="70" required><br/>
-							<input class="form-control" id="to-email" name="to-email" placeholder=" you@you.com" type="email" required><br/>
-							<textarea class="form-control" id="subject" style="text-transform: capitalize" name="subject" placeholder=" Halloween Greetings!" rows="1" maxlength="123" required></textarea><br/>
-                    <textarea class="form-control" id="message" name="message" placeholder=" Happy Halloween!" rows="5" maxlength="630" required></textarea><br/>
-					</div>
+                        <label for="from-email">Your email address:</label>
+						<input class="form-control" id="from-email" name="email" placeholder=" me@me.com" type="from-email" required><br/>
+                        <label for="to-name">Your friend:</label>
+						<input class="form-control" id="to-name" style="text-transform: capitalize" name="to-name" placeholder=" To You" type="text" maxlength="70" required><br/>
+						<label for="to-email">Your friend's email address:</label>
+						<input class="form-control" id="to-email" name="to-email" placeholder=" you@you.com" type="email" required><br/>
+						<label for="subject">Subject:</label>
+						<textarea class="form-control" id="subject" style="text-transform: capitalize" name="subject" placeholder=" Halloween Greetings!" rows="1" maxlength="123" required></textarea><br/>
+                        <label for="message">Your message:</label>
+						<textarea class="form-control" id="message" name="message" placeholder=" Happy Halloween!" rows="5" maxlength="630" required></textarea><br/>
+                        </div>
                     <div class="row">
                         <div class="col-sm-12 form-group">
                             <button class="btn btn-default pull-right" type="submit">Send</button>
