@@ -1,4 +1,7 @@
-﻿<div class="container text-center">
+﻿var myGoogleSiteKey = "6LeO8zAUAAAAAGSJRmMOqIAv3eVYD6LJp5KrxV0l";
+
+<div class="container text-center">
+	 <h2 class="text-center">Send this to a friend!</h2>
 <div class="row">
 		<!--Card-->
 <div class="col-xs-12 col-md-6">
@@ -7,16 +10,17 @@
 		<!--Form-->
 		<div class="col-xs-12 col-md-6">
 			<form action="/" method="post">
-        <div id="contact" class="container-fluid bg-grey">
-            <h2 class="text-center">Send this to a friend!</h2>
+        <div id="send" class="container-fluid bg-grey">
                     <div class="row">
-						<input class="form-control" id="from-name" style="text-transform: capitalize" name="from-name" placeholder=" Me" type="text" maxlength="70" required><br/>
+						<input class="form-control" id="from-name" style="text-transform: capitalize" name="from-name" placeholder=" From Me" type="text" maxlength="70" required><br/>
                             <input class="form-control" id="from-email" name="email" placeholder=" me@me.com" type="from-email" required><br/>
-                            <input class="form-control" id="to-name" style="text-transform: capitalize" name="to-name" placeholder=" You" type="text" maxlength="70" required><br/>
+                            <input class="form-control" id="to-name" style="text-transform: capitalize" name="to-name" placeholder=" To You" type="text" maxlength="70" required><br/>
 							<input class="form-control" id="to-email" name="to-email" placeholder=" you@you.com" type="email" required><br/>
 							<textarea class="form-control" id="subject" style="text-transform: capitalize" name="subject" placeholder=" Halloween Greetings!" rows="1" maxlength="123" required></textarea><br/>
                     <textarea class="form-control" id="message" name="message" placeholder=" Happy Halloween!" rows="5" maxlength="630" required></textarea><br/>
-						</div>
+                    <div class="g-recaptcha" data-sitekey="@myGoogleSiteKey"></div>
+						@Html.ValidationMessage("g-recaptcha")
+					</div>
                     <div class="row">
                         <div class="col-sm-12 form-group">
                             <button class="btn btn-default pull-right" type="submit">Send</button>
