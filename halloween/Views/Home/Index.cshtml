@@ -1,51 +1,23 @@
 ﻿<div class="container text-center">
-	 <h2 class="text-center">Send this to a friend!</h2>
-	<div class="row">
-		<!--Card-->
-		<div class="col-xs-12 col-md-6">
+	<h2 class="text-center">Send this to a friend!</h2>
+    <div class="row">
+        <!--Card-->
+        <div class="col-xs-12 col-md-6">
 			<div class="embed-responsive embed-responsive-4by3">
-				<iframe src="https://giphy.com/embed/J9AK8B4xz1TYk" width="720" height="576" frameBorder="0" class="giphy-embed embed-responsive-item" allowFullScreen></iframe>
-			</div>
-		</div>
-		<!--Form-->
-		<div class="col-xs-12 col-md-6">
-			<form action="/" method="post">
-				<div id="send" class="container-fluid bg-grey">
-					 <div class="form-group form-horizontal">
-						<label class="control-label" for="from-name">Your name:</label>
-
-						<input class="form-control" id="from-name" style="text-transform: capitalize" name="from-name" placeholder=" From Me" type="text" maxlength="70" required><br/>
-                        </div>
-					<div class="form-group">
-						<label for="from-email">Your email address:</label>
-						<input class="form-control" id="from-email" name="email" placeholder=" me@me.com" type="from-email" required><br/>
-                        </div>
-						<div class="form-group">
-						<label for="to-name">Your friend:</label>
-						<input class="form-control" id="to-name" style="text-transform: capitalize" name="to-name" placeholder=" To You" type="text" maxlength="70" required><br/>
-                         </div>
-					<div class="form-group">
-						<label for="to-email">Your friend's email address:</label>
-						<input class="form-control" id="to-email" name="to-email" placeholder=" you@you.com" type="email" required><br/>
-                         </div>
-					<div class="form-group">
-							<label for="subject">Subject:</label>
-						<textarea class="form-control" id="subject" style="text-transform: capitalize" name="subject" placeholder=" Halloween Greetings!" rows="1" maxlength="123" required></textarea><br/>
-                        </div>
-					 <div class="form-group">
-						<label for="message">Your message:</label>
-						<textarea class="form-control" id="message" name="message" placeholder=" Happy Halloween!" rows="5" maxlength="630" required></textarea><br/>
-                        </div>
-						<div class="row">
-                        <div class="col-sm-12 form-group">
-                            <button class="btn btn-default pull-right" type="submit">Send</button>
-                        </div>
-                    </div>
-                </div>
+                <img src="https://media.giphy.com/media/3oz8xTCYSedZluuLtK/giphy.gif" class="img-responsive" alt="ghouls" style="width:100%">
             </div>
-        </div>
-    </form>
-
+		</div>
+        <!--Form-->
+        <div class="col-xs-12 col-md-6">
+            <form action="/" method="post">
+				<input class="form-control from-name" type="text" name="from-name" placeholder=" Your Name"  maxlength="70" required><br/>
+				<input class="form-control" type="email" name="from-email" placeholder=" Your Email" required><br/>
+				<input class="form-control" type="text" name="to-name" placeholder=" Your Friend's Name" maxlength="70" required><br/>
+				<input class="form-control" type="email" name="to-email" placeholder=" Your Friend's Email" required><br/>
+				<textarea class="form-control" name="subject" placeholder=" Message Subject" rows="1" maxlength="123" required></textarea><br/>
+				<textarea class="form-control" name="message" placeholder=" Your Message" rows="5" maxlength="630" required></textarea><br/>
+				<button class="btn btn-default pull-right" type="submit">Send</button>
+			</form>
 		</div>
 	</div>
 </div>
