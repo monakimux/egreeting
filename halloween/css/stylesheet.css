@@ -21,7 +21,7 @@ body {
     background: #F1C795;
     font-family: inherit;
     font-weight: bold;
-    font-size: smaller;
+    font-size: 1em;
 }
 
     .form-control::placeholder {
@@ -31,9 +31,9 @@ body {
 
 button {
     padding: 20px;
-    margin: 0px auto 20px;
+    margin: 50px auto 10px;
     border-radius: 100px;
-    /*letter-spacing: 2px;*/
+    letter-spacing: 2px;
     background-color: #DA8230;
     border: none;
     color: #fff;
@@ -41,31 +41,25 @@ button {
     float: right;
     font-family: inherit;
     font-weight: bold;
-    font-size: large;
+    font-size: 1.5em;
 }
 
 .img-responsive {
     border: 10px solid white;
 }
 
-.g-recaptcha {
-    display: inline-block;
-    float: left;
-}
-
 .checkbox-inline {
     float: left;
-    color: #fff;
+    color: #000;
     font-size: 1.5em;
     margin: 0px auto 20px;
 }
 
-/*.mediabox {
-    background-color: #000;
-    display: inline-block;
-}*/
+.g-captcha {
+    margin: 0px auto 10px;
+}
 
 .textbox {
     background-color: #ccc;
-    padding: 1.5em;
+    padding: 1em;
 }
