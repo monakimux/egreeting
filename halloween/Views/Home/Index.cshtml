@@ -2,20 +2,22 @@
 	<h1 class="text-center">Send this Halloween Greeting to a friend!</h1>
     <div class="row">
         <!--Card-->
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 mediabox">
 			<div class="embed-responsive embed-responsive-4by3">
                 <img src="https://media.giphy.com/media/3oz8xTCYSedZluuLtK/giphy.gif" class="img-responsive" alt="ghouls" style="width:100%">
             </div>
 		</div>
         <!--Form-->
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 textbox">
             <form action="/" method="post">
-				<input type="text" name="from-name" class="form-control" placeholder="Your Name"  maxlength="70" required><br/>
-				<input type="email" name="from-email" class="form-control" placeholder="Your Email" required><br/>
-				<input type="text" name="to-name" class="form-control" placeholder="Your Friend's Name" maxlength="70" required><br/>
-				<input type="email" name="to-email" class="form-control" placeholder="Your Friend's Email" required><br/>
-				<textarea name="subject" class="form-control" placeholder="Message Subject" rows="1" maxlength="123" required></textarea><br/>
-				<textarea name="message" class="form-control" placeholder="Your Message" rows="5" maxlength="630" required></textarea><br/>
+				<input type="text" name="from-name" class="form-control" placeholder="Your Name"  maxlength="250" required>
+				<input type="email" name="from-email" class="form-control" placeholder="Your Email" required>
+				<input type="text" name="to-name" class="form-control" placeholder="Your Friend's Name" maxlength="250" required>
+				<input type="email" name="to-email" class="form-control" placeholder="Your Friend's Email" required>
+				<textarea name="subject" class="form-control" placeholder="Message Subject" rows="1" maxlength="123" required></textarea>
+				<textarea name="message" class="form-control" placeholder="Your Message" rows="5" maxlength="630" required></textarea>
+  <label class="checkbox-inline"><input type="checkbox" value="" required>I agree to the Terms and Conditions</label>
+<div class="g-recaptcha" data-sitekey="6LeO8zAUAAAAAGSJRmMOqIAv3eVYD6LJp5KrxV0l"></div>
 				<button type="submit">Send</button>
 			</form>
 		</div>

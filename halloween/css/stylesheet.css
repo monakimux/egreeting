@@ -3,53 +3,38 @@
     font-size: 3em;
     margin: 0.5em 0 1em 0;
     text-decoration: none;
+    color: #DA8230;
 }
 
 body {
     font-family: 'Oswald', sans-serif;
+    background-color: #000;
 }
 
-input {
+.form-control {
     display: inline-block;
     width: 100%;
-    border: 2px solid #D5E5E9;
+    border: 3px solid #DA8230;
     border-radius: 0;
     padding: 10px;
     margin: 0px auto 20px;
-    background: #EEF2F3;
+    background: #F1C795;
     font-family: inherit;
     font-weight: bold;
     font-size: smaller;
 }
 
-    input::placeholder {
+    .form-control::placeholder {
         text-transform: uppercase;
-    }
-
-textarea {
-    display: inline-block;
-    width: 100%;
-    border: 2px solid #D5E5E9;
-    border-radius: 0;
-    padding: 10px;
-    margin: 0px auto 20px;
-    background: #EEF2F3;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: smaller;
-}
-
-
-    textarea::placeholder {
-        text-transform: uppercase;
+        color: #4F1906;
     }
 
 button {
     padding: 20px;
     margin: 0px auto 20px;
     border-radius: 100px;
-    letter-spacing: 2px;
-    background-color: #47D5D8;
+    /*letter-spacing: 2px;*/
+    background-color: #DA8230;
     border: none;
     color: #fff;
     text-transform: uppercase;
@@ -57,4 +42,30 @@ button {
     font-family: inherit;
     font-weight: bold;
     font-size: large;
+}
+
+.img-responsive {
+    border: 10px solid white;
+}
+
+.g-recaptcha {
+    display: inline-block;
+    float: left;
+}
+
+.checkbox-inline {
+    float: left;
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0px auto 20px;
+}
+
+/*.mediabox {
+    background-color: #000;
+    display: inline-block;
+}*/
+
+.textbox {
+    background-color: #ccc;
+    padding: 1.5em;
 }
