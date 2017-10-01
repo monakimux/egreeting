@@ -1,0 +1,60 @@
+﻿h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    margin: 0.5em 0 1em 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #D5E5E9;
+    border-radius: 0;
+    padding: 10px;
+    margin: 0px auto 20px;
+    background: #EEF2F3;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+    input::placeholder {
+        text-transform: uppercase;
+    }
+
+textarea {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #D5E5E9;
+    border-radius: 0;
+    padding: 10px;
+    margin: 0px auto 20px;
+    background: #EEF2F3;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+
+    textarea::placeholder {
+        text-transform: uppercase;
+    }
+
+button {
+    padding: 20px;
+    margin: 0px auto 20px;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    background-color: #47D5D8;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: large;
+}

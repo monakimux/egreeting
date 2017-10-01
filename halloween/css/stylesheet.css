@@ -1,0 +1,96 @@
+﻿body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    background-color: #000;
+}
+a {
+}
+    a:hover,
+    a:focus {
+    }
+
+
+
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size:initial;
+    margin: 0.5em 0 1em 0;
+    color: #DA8230;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: xx-large;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-control {
+    display: inline-block;
+    width: 100%;
+    border: 3px solid #DA8230;
+    border-radius: 0;
+    padding: 10px;
+    margin: 0px auto 20px;
+    background: #F1C795;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+    .form-control::placeholder {
+        text-transform: uppercase;
+        color: #4F1906;
+    }
+
+button {
+    padding: 20px;
+    margin: 50px auto 10px;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    background-color: #DA8230;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.img-responsive {
+    border: 10px solid white;
+}
+
+.checkbox-inline {
+    float: left;
+    color: #000;
+    font-size: 1.5em;
+    margin: 0px auto 20px;
+}
+
+.g-captcha {
+    margin: 0px auto 10px;
+}
+
+.textbox {
+    background-color: #ccc;
+    padding: 1em;
+}
